@@ -11,4 +11,7 @@ echo Today date is $DATE
 
 #Arithmetic subs
 ADD=$((2+3+5-1))
-echo Addition = $ADD
+echo Addition of 2+3+5-1 = $ADD
+
+## variable from cli(linux box)
+echo x = $x
