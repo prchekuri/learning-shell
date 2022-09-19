@@ -11,3 +11,10 @@ x='abcd'
 if [ $x == 'abcd' ]; then
   echo Yes both are equal
 fi
+
+file=/tmp/new
+if [ -f $file ]; then
+  echo file exists
+else
+  echo file doesnot exists
+fi
