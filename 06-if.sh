@@ -6,3 +6,8 @@ then
 else
   echo $a is less than 10
 fi
+
+x='abcd'
+if [ $x == 'abcd' ]; then
+  echo Yes both are equal
+fi
