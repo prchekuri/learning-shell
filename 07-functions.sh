@@ -14,8 +14,8 @@ sample1(){
 }
 
 a=10
+sample
 echo value of b from function $b
 b=20
 echo value of b after overwriting in main program $b
-sample
 sample1
