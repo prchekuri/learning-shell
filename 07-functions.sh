@@ -6,5 +6,8 @@ function sample(){
 
 ##Declaration way2
 sample1(){
-  This is from sample1 function
+  echo This is from sample1 function
 }
+
+sample
+sample1
