@@ -6,6 +6,7 @@ function sample(){
   echo value of a after overwriting in function $a
   echo This is from sample Function
   b=200
+  return 100
 }
 
 ##Declaration way2
@@ -15,6 +16,7 @@ sample1(){
 
 a=10
 sample
+echo Return Status = $?
 echo value of b from function $b
 b=20
 echo value of b after overwriting in main program $b
