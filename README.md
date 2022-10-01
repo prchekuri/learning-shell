@@ -39,64 +39,64 @@ Double Quotes
 -> It is most preferred one.
 Variables
 
-# Declare variable
+### Declare variable
 a=10
-# Access Variable
+### Access Variable
 $a
-# print
+### print
 echo $a
 
-# Properties of a variable
+### Properties of a variable
 
-# Readwrite
+### Readwrite
 a=10
 a=20
-# to mark as readonly
+### to mark as readonly
 readonly a
 
-# Local
+### Local
 a=10
 bash script.sh (a is not accessible inside script.sh)
-# to mark as env variable
+### to mark as env variable
 export a
 bash script.sh (s should be accessible insude script.sh)
 
 
-# Command Subs
+### Command Subs
 data=$(date)
 
-# Arthimetic
+### Arthimetic
 add=$((2+3))
 
 
-# Special Variables , Take inputs to script using these
+### Special Variables , Take inputs to script using these
 $1, $2 .. $n, $*, $* , $# , $?
 
 bash script.sh 123 xyz
-# $1 - 123
-# $2 - xyz
-# $# - 2 (count of number of arguments)
-# $@ / $* - 123 xyz (All Arguments)
-# $? - Exit status of previous command (it is a number from 0-255)
+### $1 - 123
+### $2 - xyz
+### $# - 2 (count of number of arguments)
+### $@ / $* - 123 xyz (All Arguments)
+### $? - Exit status of previous command (it is a number from 0-255)
 Functions
 
-# Declare a function
+### Declare a function
 sample() {
 echo sample function
 }
 
-# Access a function
+### Access a function
 sample
 
-## Inputs to function
+### Inputs to function
 Special variables are applicable to functions, $1, $2.. $#, $* , $@, $?
 
-## Exit status of a function is possible by using return command
+### Exit status of a function is possible by using return command
 
-# variables of main program are accessible from function and vice-versa
+### variables of main program are accessible from function and vice-versa
 Conditions
 
-# Two conditinal command
+### Two conditinal command
 1. if
 2. case
 
@@ -114,9 +114,9 @@ file checks (-f , -e)
 Case command
 Loops
 
-# for and while loop
+### for and while loop
 if inputs are quite fixed then for loop
 if loop based on a expression and number of iterations based on expression the we choose while loop.
 
-# break command is there to break a loop, meaning come out of loop 
+### break command is there to break a loop, meaning come out of loop 
 
