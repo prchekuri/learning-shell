@@ -14,6 +14,7 @@ while [ $a -gt 0 ]; do
   sleep 1
 done
 
+
 # Loop continuously executes until the condition/expression fails
 
 # for loop
