@@ -39,6 +39,8 @@ Double Quotes
 -> It is most preferred one.
 Variables
 
+#Declaration way1
+
 #### Declare variable
 a=10
 ###### Access Variable
