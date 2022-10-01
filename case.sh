@@ -5,6 +5,8 @@ case $system in
     ;;
   Unix) echo "Unix"
     ;;
+  *) echo "Input Missing / Unknown System"
+    ;;
 esac
 
 #syntax
